@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<apport>
+  <ignore program="/usr/bin/software-properties-gtk" mtime="1698152854"/>
+</apport>

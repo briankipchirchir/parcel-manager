@@ -1,0 +1,43 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+header{
+    color:red;
+    position: absolute;
+    align-items: center;
+    margin-left: 50%;
+    display: flex;
+}
+
+p{
+    color: blue;
+    margin-left: 40%;
+    font-size: large;
+}
+form{
+    margin-top:230px ;
+    margin-left: 600px;
+}
+h3{
+    color: black;
+    margin-left: 40%;
+    text-decoration-line: underline;
+    margin-top: 200px;
+    
+
+}
+img{
+    margin-left: 300px;
+    padding-right: 0%;
+}
+label{
+    width: 40px;
+    color: green;
+}
+    
+
+
+

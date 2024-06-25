@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    }
+body{    
+    background-color: aqua;   
+    background-position: center;    
+    align-items: center; 
+    min-height: 100vh;
+    width: 100%;
+                                          
+    }
+.container{
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+
+    }
+.formbox{
+    position: relative;
+    height: 550px;
+    color: white;
+    border-radius: 20%;
+    backdrop-filter: blur;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70;
+
+    
+}    
+.formbox h2{
+color: black;
+font-size: 32px;
+
+}
+.formbox .input box{
+    margin: 30px*0;
+    position: relative;
+    width: 300px;
+
+
+}
