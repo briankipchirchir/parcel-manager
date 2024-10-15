@@ -1,0 +1,159 @@
+body{
+  background-color: wheat;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #131212;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #ddd;
+}
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  color: #000;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #000;
+}
+.login-form, .signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+.footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* src/components/HomePage.css */
+.home-page {
+  height: 100vh; /* Full viewport height */
+  background-image: url('https://callaride.co.ke/wp-content/uploads/2022/10/call-a-ride-Truck.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  display: flex; /* Flexbox for centering content */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+}
+/* src/components/GetQuote.css */
+.quote-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  max-width: 450px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.quote-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Add spacing between form groups */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.quote-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.quote-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.quote-btn:hover {
+  background-color: #218838;
+}
+/* src/components/GetQuote.css */
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
